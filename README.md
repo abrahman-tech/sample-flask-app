@@ -47,7 +47,7 @@ Building the application using Docker locally
 	 docker build -t my_flask_app:latest .  
 
 2. Run the build (-p: the port it will run on) \
-	docker run -d -p 5000:5000 my_docker_flask:latest
+	docker run -d -p 5000:5000 my_flask_app:latest
 
 To check if the docker is running \
 	docker ps
