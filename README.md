@@ -2,7 +2,7 @@
 
 Starting the Application locally
 
-1. Export the FLASK_APP variable
+1. Export the FLASK_APP variable \
 	export FLASK_APP=app
 	
 2. Run the application in development mode (Optional)
