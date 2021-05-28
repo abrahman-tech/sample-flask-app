@@ -26,13 +26,13 @@ Expected Response -->
  
  In linux terminal
  
- command:curl -vs http://127.0.0.1:5000/
+ command:curl -vs http://127.0.0.1:5000 \
  Expected Output: Hello, World
  
- command: curl -vs http://127.0.0.1:5000/healthcheck
+ command: curl -vs http://127.0.0.1:5000/healthcheck \
  Expected Output: Healthy
  
- Command: curl -vs http://127.0.0.1:5000/meta
+ Command: curl -vs http://127.0.0.1:5000/meta \
  Expected Output: [
   {
     "description": "pre-interview technical test", 
@@ -43,11 +43,11 @@ Expected Response -->
 
 Building the application using Docker locally
 
-1. Build the docker image with the tag 'latest'
+1. Build the docker image with the tag 'latest' \
 	 docker build -t my_flask_app:latest .  
 
-2. Run the build (-p: the port it will run on)
+2. Run the build (-p: the port it will run on) \
 	docker run -d -p 5000:5000 my_docker_flask:latest
 
-To check if the docker is running
+To check if the docker is running \
 	docker ps
