@@ -5,10 +5,10 @@ Starting the Application locally
 1. Export the FLASK_APP variable \
 	export FLASK_APP=app
 	
-2. Run the application in development mode (Optional)
+2. Run the application in development mode (Optional)\
 	FLASK_ENV=development
 	
-3. Run Flask
+3. Run Flask \
 	flask run
 	
 The application is now started.
